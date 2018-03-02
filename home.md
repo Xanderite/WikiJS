@@ -4,6 +4,27 @@
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
 | col 1 is |  left-aligned | $1600 |
+
+```js
+function resolveAfter2Seconds(x) {
+  return new Promise(resolve => {
+    setTimeout(() => {
+      resolve(x);
+    }, 2000);
+  });
+}
+
+
+async function add1(x) {
+  const a = await resolveAfter2Seconds(20);
+  const b = await resolveAfter2Seconds(30);
+  return x + a + b;
+}
+
+add1(10).then(v => {
+  console.log(v);  // prints 60 after 4 seconds.
+});
+```
 # Access Inserter Settings
 1. Login to Wordpress (go to the site and click the log in link in the side bar)
 2. Use the sidebar navigation to go to `settings` -> `Ad Inserter`
