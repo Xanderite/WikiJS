@@ -1,7 +1,7 @@
 <!-- TITLE: Ad Inserter - User Guide -->
 <!-- SUBTITLE: How to use and set up the Ad Inserter for the demo site -->
 
-[tools/charles-proxy]
+[tools/charles-proxy](tools/charles-proxy)
 
 | Tables   |      Are      |  Cool |
 |----------|:-------------:|------:|
