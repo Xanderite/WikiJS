@@ -3,4 +3,4 @@
 
 # Test this usable wiki
 
-[image:6510BBD2-4407-4B20-88C8-937899C98E17-6928-0001D084136A3B54/9F3484E8-6CEA-4020-86FF-3DDC79D6F115.png]
+![Ad Inserter Annotation](/uploads/ad-inserter-annotation.png "Ad Inserter Annotation")
