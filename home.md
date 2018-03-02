@@ -1,11 +1,11 @@
 <!-- TITLE: Ad Inserter - User Guide -->
 <!-- SUBTITLE: How to use and set up the Ad Inserter for the demo site -->
 
-## Access Inserter Settings
+# Access Inserter Settings
 1. Login to Wordpress (go to the site and click the log in link in the side bar)
 2. Use the sidebar navigation to go to `settings` -> `Ad Inserter`
 
-## Overview of Settings
+# Overview of Settings
 ![Ad Inserter Annotation](/uploads/ad-inserter-annotation.png "Ad Inserter Annotation")
 
 1. **Block Selection**
@@ -30,7 +30,7 @@ Allows block level targeting of pages, based on post, or page.
 	* Misc
 		* An assortment of other filters.
 
-## Setting up an Embed Script
+# Setting up an Embed Script
 First you need to grab an embed script.
 1. Login to the console, navigate to -> `My Publications`.
 2. Select a publication and click on it.
@@ -44,7 +44,7 @@ Now to use it with the Ad Inserter:
 3. Select Footer for the Automatic Insertion.
 4. Make sure the targeting is setup to target everything.
 
-### Adding Embed Slots
+## Adding Embed Slots
 Next you will need to grab some Slot tags, these determine which ads will be shown where.
 1. Using the same login used to get the embed script, navigate to -> `Ad Slots` .
 2. Select and click on an ad slot.
@@ -57,7 +57,7 @@ Now in the Ad Inserter settings
 (or optionally use manual insertion to insert in a specific page or post, described above).
 4. Finally determine what filters should be placed on showing this ad slot. e.g. only show on pages with the tag “Football”.
 
-## Setting up an Ad Tag
+# Setting up an Ad Tag
 Once again, first find the Ad Tag in the console.
 1. Login to the console, navigate to -> `Ad Tags`
 2. Select and click on an Ad Tag.
@@ -71,13 +71,13 @@ Now in the ad Inserter Settings:
 (or optionally use manual insertion to insert in a specific page or post, described above).
 4. Finally determine what filters should be placed on showing this ad tag. e.g. only show on pages with the tag “Football”.
 
-## Setting up the correct Ad Tag
+# Setting up the correct Ad Tag
 Some Ad Tags in the console are configured to be shown in a 3rd party ad tag. An ad tag configured in this way will not be inserted correctly via the ad Inserter, it will be position at the top right of the page it is inserted on. Using the 3rd part ad tag will work in this case. 
 
 To clarify:
 * If an Ad Tag is to be used by a 3rd party network such as DoubleClick_DFP the console provided ad tag will not be aligned correctly when used directly.
 * If the DoubleClick_DFP ad tag, that uses the console ad tag, is used then it should display properly.
 
-### Using an Ad Tag with Embed Scripts
+## Using an Ad Tag with Embed Scripts
 Using an Ad Tag does not require an embed script to be setup, and setting up an embed script should not interfere with an Ad Tag.
 
