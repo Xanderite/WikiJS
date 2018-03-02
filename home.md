@@ -67,7 +67,7 @@ Once again, first find the Ad Tag in the console.
 Now in the ad Inserter Settings:
 1. Select an unused block.
 2. Paste in the Ad Tag from the above steps into the HTML editor.
-3. 3. Now select where the ad tag should be inserted using Automatic Insertion, and how it should be aligned.
+3. Now select where the ad tag should be inserted using Automatic Insertion, and how it should be aligned.
 (or optionally use manual insertion to insert in a specific page or post, described above).
 4. Finally determine what filters should be placed on showing this ad tag. e.g. only show on pages with the tag “Football”.
 
