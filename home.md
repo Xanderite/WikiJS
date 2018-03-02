@@ -1,6 +1,8 @@
 <!-- TITLE: Ad Inserter - User Guide -->
 <!-- SUBTITLE: How to use and set up the Ad Inserter for the demo site -->
 
+| a | table |
+| 1 |  2 |
 # Access Inserter Settings
 1. Login to Wordpress (go to the site and click the log in link in the side bar)
 2. Use the sidebar navigation to go to `settings` -> `Ad Inserter`
